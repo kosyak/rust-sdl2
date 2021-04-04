@@ -22,6 +22,7 @@ lazy_static = "^1"
 [dependencies.sdl2-sys]
 path = "sdl2-sys"
 version = "^0.34.2"
+git = "https://github.com:kosyak/rust-sdl2.git"
 
 [dependencies.c_vec]
 version = ">= 1.0, <= 1.3"

@@ -320,6 +320,8 @@ fn compile_sdl2(sdl2_build_path: &Path, target_os: &str) -> PathBuf {
                 cfg.cflag("-fcommon");
             }
         }
+
+        cfg.define("VIDEO_RPI", "OFF");
     }
 
     if target_os == "windows-gnu" {
